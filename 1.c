@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-main() {
+int main() {
     double a1 = 1.0;
     double m = 1.000001f;
     unsigned long long i = 0;
@@ -9,4 +9,5 @@ main() {
         a1 *= m;
     }
     printf("%lf\n", a1);
+    return 0;
 }
